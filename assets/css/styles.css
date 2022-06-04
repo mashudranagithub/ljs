@@ -1,6 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  color: #313691;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 header#Header {
@@ -19,23 +32,25 @@ header#Header .logo {
   padding-right: 20px;
 }
 
+header#Header .logo a img {
+  max-height: 90px;
+}
+
 header#Header .main-menu nav.navbar {
   padding: 0px;
 }
 
-header#Header .main-menu nav li a {
+header#Header .main-menu nav.navbar ul.navbar-nav > li {
+  margin-right: 15px;
+}
+
+header#Header .main-menu nav.navbar li a {
   padding: 10px;
-  line-height: 90px;
-  font-family: 'Bebas Neue', cursive;
+  line-height: 100px;
   text-decoration: none;
   color: #000;
   font-size: 1.2rem;
-  /*font-weight: 700;*/
   letter-spacing: 0.5px;
-}
-
-header#Header .main-menu nav ul.navbar-nav > li {
-  margin-right: 15px;
 }
 
 header#Header li.first-drop-menu > a {
@@ -50,12 +65,12 @@ header#Header li.first-drop-menu > a::after {
   position: absolute;
   line-height: 90px;
   right: -5px;
-  top: -25px;
+  top: -22px;
   font-size: 18px;
 }
 
-header#Header .main-menu nav li a:hover,
-header#Header li.first-drop-menu > a:hover::after {
+header#Header li.first-drop-menu > a:hover,
+header#Header li.first-drop-menu > a li.first-drop-menu > a:hover::after {
   color: #a50000;
 }
 
@@ -71,7 +86,7 @@ header#Header ul.second-dropped-menu {
   left: 0;
   display: none;
   z-index: 99;
-  /*padding: 10px 0px 15px;*/
+  padding: 10px 0px 15px;
   background: #f1f1f1;
   min-width: 150px;
   width: max-content;
@@ -79,6 +94,8 @@ header#Header ul.second-dropped-menu {
 }
 
 header#Header ul.first-dropped-menu li,
+header#Header ul.first-dropped-menu li,
+header#Header ul.second-dropped-menu li,
 header#Header ul.second-dropped-menu li {
   margin-left: 0px;
   padding: 0px;
@@ -138,4 +155,144 @@ header#Header .main-menu nav li a:last-child {
 
 header#Header .main-menu nav li:last-child {
   margin-right: 0px !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-shadow: 0 0px 1px 0px #ddd;
+}
+
+#top {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  background: #323890;
+  padding: 1px 7px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  z-index: 9999;
+}
+
+.btn.btn-ljs {
+  background: #1DA1F2;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  padding: 7px 20px;
+}
+
+#Slider {
+  height: calc( 100vh - 100px);
+}
+
+#Slider .single-slider {
+  height: calc( 100vh - 100px);
+  position: relative;
+}
+
+#Slider .single-slider img {
+  height: calc( 100vh - 100px);
+  width: auto;
+}
+
+#Slider .single-slider .slider-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#Slider .single-slider .slider-content h2 {
+  font-size: 3.3rem;
+}
+
+#Slider .main-slider {
+  position: relative;
+  z-index: -1;
+}
+
+#Slider .main-slider .owl-nav {
+  top: 50%;
+}
+
+#Slider .main-slider .owl-nav .owl-prev,
+#Slider .main-slider .owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#Slider .main-slider .owl-nav .owl-prev {
+  left: 20px;
+}
+
+#Slider .main-slider .owl-nav .owl-next {
+  right: 20px;
+}
+
+#Promo {
+  margin-top: -60px;
+  z-index: 99999;
+}
+
+#Promo .container {
+  background: #313691;
+  width: 75%;
+  color: #fff;
+  border-radius: 10px;
+  padding: 25px 40px;
+}
+
+#Promo .container h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#Promo .container .col-md-4 {
+  border-right: 2px solid #cacaca;
+}
+
+.single-promo {
+  padding: 15px 7px;
+  border-radius: 5px;
+}
+
+.single-promo img {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.single-promo h6 {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.single-promo a.btn-learn-more {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.single-promo:hover {
+  background: #1DA1F2;
+}
+
+#About {
+  margin: 80px 0;
+}
+
+#Footer {
+  background: url("../img/footer/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
 }

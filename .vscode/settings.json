@@ -1,0 +1,18 @@
+{
+    "liveSassCompile.settings.autoprefix": [
+    
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.includeItems": [
+    
+    ],
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css/"
+        }
+    ],
+    "editor.fontSize": 12,
+}
