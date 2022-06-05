@@ -274,7 +274,7 @@ header#Header .main-menu nav li:last-child {
 }
 
 .single-promo h6 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-bottom: 8px;
 }
 
@@ -289,6 +289,180 @@ header#Header .main-menu nav li:last-child {
 
 #About {
   margin: 80px 0;
+}
+
+#School-feature {
+  padding: 80px 0;
+  min-height: 620px;
+  background: #313691;
+}
+
+#School-feature h2,
+#School-feature h3,
+#School-feature p {
+  color: #fff;
+}
+
+#School-feature .single-promo {
+  margin-top: 25px;
+  transition: all 0.5s;
+}
+
+#School-feature .single-promo:hover {
+  padding: 25px;
+}
+
+#Calendar-Notice {
+  padding: 80px 0;
+}
+
+#Calendar-Notice .notice-board {
+  background: #f2f2f2;
+  padding: 25px;
+}
+
+#Calendar-Notice .notice-board .single-notice {
+  margin-bottom: 5px;
+}
+
+#Calendar-Notice .notice-board .single-notice p {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+#Calendar-Notice .notice-board .single-notice p a {
+  color: #212529;
+}
+
+#Calendar-Notice .notice-board .single-notice p a:hover {
+  color: #313691;
+}
+
+#Calendar-Notice .notice-board .single-notice p a span {
+  background: #ddd;
+  padding: 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#Calendar-Notice .notice-board .single-notice:hover p a span {
+  background: #313691;
+  color: #fff;
+}
+
+#Events {
+  padding-bottom: 80px;
+}
+
+#Events .events-slider {
+  margin-top: 30px;
+}
+
+#Events .events-slider .single-event-slide {
+  box-shadow: 0px 0px 4px #ddd;
+  margin: 5px 2px;
+}
+
+#Events .events-slider .single-event-slide .single-event-info {
+  padding: 15px 25px;
+}
+
+#Events .events-slider .single-event-slide .single-event-info h3 {
+  font-size: 1.4rem;
+  color: #313691;
+}
+
+#Events .events-slider .single-event-slide .single-event-info .btn-read-more {
+  color: #313691;
+}
+
+#Events .events-slider .single-event-slide:hover .btn-read-more {
+  color: #1DA1F2;
+}
+
+#Apply .container {
+  background: #1DA1F2;
+  width: 75%;
+  margin: 0 auto 80px;
+  color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+#Apply .container h2 {
+  color: #fff;
+}
+
+#Apply .container .btn-apply {
+  border: 1px solid #fff;
+  color: #313691;
+  background: #fff;
+  padding: 8px 45px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#Apply .container .btn-apply:hover {
+  background: #313691;
+  color: #fff;
+}
+
+#Testimonial {
+  margin-bottom: 40px;
+}
+
+#Testimonial .testimonial-slider {
+  margin-bottom: 40px;
+}
+
+#Testimonial .testimonial-slider .single-testimonial {
+  box-shadow: 0 0 3px #ddd;
+  margin: 5px;
+  padding: 20px;
+}
+
+#Testimonial .testimonial-slider .single-testimonial .review {
+  width: 65%;
+  margin-right: 5%;
+}
+
+#Testimonial .testimonial-slider .single-testimonial .review .stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#Testimonial .testimonial-slider .single-testimonial .review .stars .fa-quote-left {
+  background: #1DA1F2;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+#Testimonial .testimonial-slider .single-testimonial .review .stars .fa-star {
+  color: #FFCE31;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+#Testimonial .testimonial-slider .single-testimonial .testimonial-image {
+  width: 25%;
+}
+
+#Gallery {
+  padding-bottom: 80px;
+}
+
+#Gallery .gallery {
+  background: #1DA1F2;
+}
+
+#Gallery .gallery .single-image a img {
+  width: 99.5%;
 }
 
 #Footer {

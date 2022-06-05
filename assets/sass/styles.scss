@@ -241,7 +241,7 @@ header#Header {
         margin-bottom: 10px;
     }
     h6 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin-bottom: 8px;
     }
     a.btn-learn-more {
@@ -255,6 +255,152 @@ header#Header {
 
 #About {
     margin: 80px 0;
+}
+
+#School-feature {
+    padding: 80px 0;
+    min-height: 620px;
+    background: $p_color;
+    h2,
+    h3,
+    p {
+        color: #fff;
+    }
+    .single-promo {
+        margin-top: 25px;
+        transition: all 0.5s;
+        &:hover {
+            padding: 25px;
+        }
+    }
+}
+
+#Calendar-Notice {
+    padding: 80px 0;
+    .notice-board {
+        background: #f2f2f2;
+        padding: 25px;
+        .single-notice {
+            margin-bottom: 5px;
+            p {
+                line-height: 30px;
+                margin-bottom: 30px;
+                a {
+                    color: #212529;
+                    &:hover {
+                        color: $p_color;
+                    }
+                    span {
+                        background: #ddd;
+                        padding: 12px;
+                        border-radius: 4px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            &:hover p a span {
+                background: $p_color;
+                color: #fff;
+            }
+        }
+    }
+}
+
+#Events {
+    padding-bottom: 80px;
+    .events-slider {
+        margin-top: 30px;
+        .single-event-slide {
+            box-shadow: 0px 0px 4px #ddd;
+            margin: 5px 2px;
+            .single-event-info {
+                padding: 15px 25px;
+                h3 {
+                    font-size: 1.4rem;
+                    color: $p_color;
+                }
+                .btn-read-more {
+                    color: $p_color;
+                }
+            }
+            &:hover .btn-read-more {
+                color: $s_color;
+            }
+        }
+    }
+}
+
+#Apply .container {
+    background: $s_color;
+    width: 75%;
+    margin: 0 auto 80px;
+    color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    h2 {
+        color: #fff;
+    }
+    .btn-apply {
+        border: 1px solid #fff;
+        color: $p_color;
+        background: #fff;
+        padding: 8px 45px;
+        border-radius: 10px;
+        font-weight: 700;
+        &:hover {
+            background: $p_color;
+            color: #fff;
+        }
+    }
+}
+
+#Testimonial {
+    margin-bottom: 40px;
+    .testimonial-slider {
+        margin-bottom: 40px;
+        .single-testimonial {
+            box-shadow: 0 0 3px #ddd;
+            margin: 5px;
+            padding: 20px;
+            .review {
+                width: 65%;
+                margin-right: 5%;
+                .stars {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 15px;
+                    .fa-quote-left {
+                        background: $s_color;
+                        height: 35px;
+                        width: 35px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 15px;
+                        margin-right: 10px;
+                    }
+                    .fa-star {
+                        color: #FFCE31;
+                        margin-right: 5px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .testimonial-image {
+                width: 25%;
+            }
+        }
+    }
+}
+
+#Gallery {
+    padding-bottom: 80px;
+    .gallery {
+        background: $s_color;
+        .single-image a img {
+            width: 99.5%;
+        }
+    }
 }
 
 #Footer {
