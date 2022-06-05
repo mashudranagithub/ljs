@@ -19,6 +19,14 @@ h2 {
     margin-bottom: 20px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}
+
 header#Header {
     /* background: #f1f1f1; */
     box-shadow: inset 0px 0px 2px 0px #ababab;
@@ -407,4 +415,95 @@ header#Header {
     background: url('../img/footer/footer-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
+    position: relative;
+    color: #fff;
+    p {
+        font-size: 0.9rem;
+    }
+    .footer-main {
+        padding: 60px 0 20px;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, #05050566, #000000e6);
+    }
+    h3 {
+        margin-bottom: 20px;
+    }
+    ul.important-links {
+        li {
+            margin-bottom: 10px;
+            line-height: 1.2;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    ul.footer-contact {
+        li {
+            display: flex;
+            align-items: start;
+            line-height: 1.5;
+            p {
+                margin-left: 10px;
+            }
+            svg {
+                margin-top: 3px;
+            }
+        }
+    }
+    ul.social-menu {
+        margin-top: 20px;
+        li {
+            margin-right: 20px;
+            a {
+                font-size: 25px;
+                svg.fa-facebook {
+                    color: #3B5998;
+                }
+                svg.fa-twitter {
+                    color: #1DA1F2;
+                }
+                svg.fa-instagram {
+                    color: #C13584;
+                }
+                svg.fa-linkedin {
+                    color: #0077B5;
+                }
+                svg.fa-youtube {
+                    color: #FF0000;
+                }
+                svg.svg-inline--fa:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .single-footer-event {
+        margin-bottom: 25px;
+        h6 {
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 5px;
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+    .footer-bottom {
+        p {
+            a {
+                color: #fff;
+                &:hover {
+                    color: $s_color;
+                }
+            }
+        }
+    }
 }
