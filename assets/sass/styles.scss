@@ -44,7 +44,7 @@ header#Header {
         nav.navbar {
             padding: 0px;
             ul.navbar-nav>li {
-                margin-right: 15px;
+                margin-right: 25px;
             }
             li a {
                 padding: 10px;
@@ -503,6 +503,88 @@ header#Header {
                 &:hover {
                     color: $s_color;
                 }
+            }
+        }
+    }
+}
+
+// Inner pages
+#Page-heading {
+    height: 250px;
+    position: relative;
+    &:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    h2 {
+        color: #fff;
+        margin: 0;
+    }
+}
+
+.admission-page {
+    background: url('../img/footer/footer-bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Page-content {
+    min-height: 50vh;
+    padding: 80px;
+    .side-menu {
+        ul {
+            max-width: 85%;
+            margin-bottom: 50px;
+            li {
+                background: $p_color;
+                border-bottom: 1px solid #ddd;
+                a {
+                    display: block;
+                    padding: 15px 20px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                &:hover {
+                    background: $s_color;
+                }
+            }
+            li.active {
+                background: $s_color;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: -30px;
+                    width: 30px;
+                    height: 100%;
+                    border-left: 30px solid #d3d3d3;
+                    border-top: 27px solid transparent;
+                    border-bottom: 27px solid transparent;
+                }
+            }
+        }
+    }
+    .contacts {
+        margin-top: 30px;
+        .single-contact {
+            background: $p_color;
+            padding: 15px 20px;
+            color: #fff;
+            border-right: 1px solid #fff;
+            transition: all 0.5s;
+            &:hover {
+                background: $s_color;
+                transform: matrix(1, 0, 0, 1.1, 0, 0);
+            }
+            p {
+                margin: 0;
             }
         }
     }

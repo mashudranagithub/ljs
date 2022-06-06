@@ -50,7 +50,7 @@ header#Header .main-menu nav.navbar {
 }
 
 header#Header .main-menu nav.navbar ul.navbar-nav > li {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 header#Header .main-menu nav.navbar li a {
@@ -585,4 +585,95 @@ header#Header .main-menu nav li:last-child {
 
 #Footer .footer-bottom p a:hover {
   color: #1DA1F2;
+}
+
+#Page-heading {
+  height: 250px;
+  position: relative;
+}
+
+#Page-heading:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#Page-heading h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.admission-page {
+  background: url("../img/footer/footer-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Page-content {
+  min-height: 50vh;
+  padding: 80px;
+}
+
+#Page-content .side-menu ul {
+  max-width: 85%;
+  margin-bottom: 50px;
+}
+
+#Page-content .side-menu ul li {
+  background: #313691;
+  border-bottom: 1px solid #ddd;
+}
+
+#Page-content .side-menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#Page-content .side-menu ul li:hover {
+  background: #1DA1F2;
+}
+
+#Page-content .side-menu ul li.active {
+  background: #1DA1F2;
+  position: relative;
+}
+
+#Page-content .side-menu ul li.active::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -30px;
+  width: 30px;
+  height: 100%;
+  border-left: 30px solid #d3d3d3;
+  border-top: 27px solid transparent;
+  border-bottom: 27px solid transparent;
+}
+
+#Page-content .contacts {
+  margin-top: 30px;
+}
+
+#Page-content .contacts .single-contact {
+  background: #313691;
+  padding: 15px 20px;
+  color: #fff;
+  border-right: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+#Page-content .contacts .single-contact:hover {
+  background: #1DA1F2;
+  transform: matrix(1, 0, 0, 1.1, 0, 0);
+}
+
+#Page-content .contacts .single-contact p {
+  margin: 0;
 }
