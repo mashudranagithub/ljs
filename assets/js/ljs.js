@@ -224,31 +224,23 @@ $(document).ready(function() {
         $.magnificPopup.close();
     });
 
-    // $('#calendar').evoCalendar({
 
-    // });
-
-
-
-    $('#calendar').evoCalendar('addCalendarEvent' [     {  id: 'kNybja6',           name: 'Mom\'s Birthday',           date: 'May 27, 1965',           type: 'birthday',           everyYear: true // optional
-                  },       {           id: 'asDf87L',           name: 'Graduation Day!',           date: 'March 21, 2020',           type: 'event'      }]);
-    // add multiple events
-    // $('#calendar').evoCalendar('addCalendarEvent', [{
-    //         id: 'kNybja6',
-    //         name: 'Mom\'s Birthday',
-    //         date: 'May 27, 1965',
-    //         type: 'birthday',
-    //         everyYear: true // optional
-    //     },
-    //     {
-    //         id: 'asDf87L',
-    //         name: 'Graduation Day!',
-    //         date: 'March 21, 2020',
-    //         type: 'event'
-    //     }
-    // ]);
-
-
+    var container = $("#calendar").simpleCalendar({
+        // ...
+    });
+    let $calendar = container.data('plugin_simpleCalendar')
+    var events = [{
+            startDate: 'Wed Jun 18 2022 01:21:14 GMT+0600 (Bangladesh Standard Time)',
+            endDate: 'Wed Jun 29 2022 01:21:14 GMT+0600 (Bangladesh Standard Time)',
+            summary: 'Visit of the Eiffel Tower'
+        },
+        {
+            startDate: 'Wed Jun 18 2022 01:21:14 GMT+0600 (Bangladesh Standard Time)',
+            endDate: 'Wed Jun 29 2022 01:21:14 GMT+0600 (Bangladesh Standard Time)',
+            summary: 'My School Event'
+        }
+    ]
+    $calendar.setEvents(events);
 
 
 

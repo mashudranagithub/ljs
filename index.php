@@ -217,6 +217,9 @@
                         <div class="single-notice">
                             <p><a href="javascript:void(0)"><span>2 Jan</span> Upcoming Anual Function will held on time</a></p>
                         </div>
+                        <div class="single-notice">
+                            <p><a href="javascript:void(0)"><span>2 Jan</span> Upcoming Anual Function will held on time</a></p>
+                        </div>
                     </div>
                 </div>
             </div>

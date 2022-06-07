@@ -328,6 +328,7 @@ header#Header .main-menu nav li:last-child {
 #Calendar-Notice .notice-board {
   background: #f2f2f2;
   padding: 25px;
+  min-height: 465px;
 }
 
 #Calendar-Notice .notice-board .single-notice {
@@ -357,6 +358,39 @@ header#Header .main-menu nav li:last-child {
 #Calendar-Notice .notice-board .single-notice:hover p a span {
   background: #313691;
   color: #fff;
+}
+
+#Calendar-Notice .notice-board .single-notice:last-child p {
+  margin-bottom: 0;
+}
+
+#Calendar-Notice #calendar {
+  background: #f2f2f2;
+  padding: 25px;
+}
+
+#Calendar-Notice #calendar .day {
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+#Calendar-Notice #calendar header .month {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: unset;
+}
+
+#Calendar-Notice #calendar header .month .year {
+  margin-left: 25px;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+#Calendar-Notice h2 {
+  margin-bottom: 55px;
 }
 
 #Events {

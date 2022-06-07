@@ -85,7 +85,7 @@
 <script src="assets/js/all.min.js"></script>
 <script src="assets/js/jquery-3.4.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/evo-calendar.js"></script>
+<script src="assets/js/jquery.simple-calendar.min.js"></script>
 <script src="assets/js/magnific-popup.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 <script src="assets/js/popper.min.js"></script>

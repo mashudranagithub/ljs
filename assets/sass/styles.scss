@@ -288,6 +288,7 @@ header#Header {
     .notice-board {
         background: #f2f2f2;
         padding: 25px;
+        min-height: 465px;
         .single-notice {
             margin-bottom: 5px;
             p {
@@ -310,7 +311,34 @@ header#Header {
                 background: $p_color;
                 color: #fff;
             }
+            &:last-child p {
+                margin-bottom: 0;
+            }
         }
+    }
+    #calendar {
+        background: #f2f2f2;
+        padding: 25px;
+        .day {
+            width: 2rem;
+            height: 2rem;
+            line-height: 2rem;
+        }
+        header .month {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 1.4rem;
+            margin-bottom: unset;
+            .year {
+                margin-left: 25px;
+                font-weight: 700;
+                font-size: 1.4rem;
+            }
+        }
+    }
+    h2 {
+        margin-bottom: 55px;
     }
 }
 
