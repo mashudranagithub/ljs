@@ -10,7 +10,7 @@
                             <div class="col-md-7">
                                 <h2>Founded in 1974, as the first English Medium </h2>
                                 <p>School in response to the need for English medium education</p>
-                                <a href="javascript:void(0)" class="btn btn-ljs">Learn More</a>
+                                <a href="about.php" class="btn btn-ljs">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                             <div class="col-md-7">
                                 <h2>We create a joyful and challenging</h2>
                                 <p>learning experience</p>
-                                <a href="javascript:void(0)" class="btn btn-ljs">Learn More</a>
+                                <a href="about.php" class="btn btn-ljs">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                             <div class="col-md-7">
                                 <h2>We create Dutiful Citizens geared to</h2>
                                 <p>face challenges of the world</p>
-                                <a href="javascript:void(0)" class="btn btn-ljs">Learn More</a>
+                                <a href="about.php" class="btn btn-ljs">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                             <div class="single-promo">
                                 <img src="assets/img/icons/promo/1.png" alt="Promo icon">
                                 <h6>Primary Section</h6>
-                                <a href="javascript:void(0)" class="btn-learn-more">
+                                <a href="junior.php" class="btn-learn-more">
                                     Learn More
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
@@ -70,7 +70,7 @@
                             <div class="single-promo">
                                 <img src="assets/img/icons/promo/1.png" alt="Promo icon">
                                 <h6>Middle Section</h6>
-                                <a href="javascript:void(0)" class="btn-learn-more">
+                                <a href="middle.php" class="btn-learn-more">
                                     Learn More
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
@@ -80,7 +80,7 @@
                             <div class="single-promo">
                                 <img src="assets/img/icons/promo/1.png" alt="Promo icon">
                                 <h6>Upper Section</h6>
-                                <a href="javascript:void(0)" class="btn-learn-more">
+                                <a href="senior.php" class="btn-learn-more">
                                     Learn More
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
@@ -90,7 +90,7 @@
                             <div class="single-promo">
                                 <img src="assets/img/icons/promo/1.png" alt="Promo icon">
                                 <h6>National Curriculum</h6>
-                                <a href="javascript:void(0)" class="btn-learn-more">
+                                <a href="national.php" class="btn-learn-more">
                                     Learn More
                                     <i class="fas fa-long-arrow-alt-right"></i>
                                 </a>
@@ -116,7 +116,7 @@
                         <h2>Welcome to Little Jewels School</h2>
                         <p>Little Jewels was founded in 1974 as the first English medium school in response to the need for English medium education. Little Jewels upholds that ‘School is a lighthouse of Society’ and therefore should provide direction and
                             light not only to students but also to parents and the society at large.The School believes that every child is potentially the light of the world.</p>
-                        <a href="javascript:void(0)" class="btn btn-ljs">Learn More</a>
+                        <a href="about.php" class="btn btn-ljs">Learn More</a>
                     </div>
                 </div>
             </div>

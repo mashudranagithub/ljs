@@ -51,10 +51,10 @@
                                         <li class="first-drop-menu">
                                             <a href="#">School Campus</a>
                                             <ul class="first-dropped-menu">
-                                                <li><a href="#">Junior Section</a></li>
-                                                <li><a href="#">Middle Section</a></li>
-                                                <li><a href="#">Senior Section</a></li>
-                                                <li><a href="#">National Curriculum</a></li>
+                                                <li><a href="junior.php">Junior Section</a></li>
+                                                <li><a href="middle.php">Middle Section</a></li>
+                                                <li><a href="senior.php">Senior Section</a></li>
+                                                <li><a href="national.php">National Curriculum</a></li>
                                             </ul>
                                         </li>
                                         <li class="first-drop-menu">

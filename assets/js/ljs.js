@@ -5,7 +5,7 @@ $(document).ready(function() {
         items: 1,
         merge: true,
         loop: true,
-        autoplay: true,
+        autoplay: false,
         responsiveClass: true,
         autoplayHoverPause: true, // Stops autoplay
         responsiveRefreshRate: 10,
