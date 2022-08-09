@@ -56,7 +56,7 @@ $(document).ready(function() {
     $('#top').click(function() {
         $('body, html').animate({
             scrollTop: 0
-        }, 2000);
+        });
         return false;
     });
     //jQuery Code for back to top End Here
