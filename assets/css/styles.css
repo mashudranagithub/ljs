@@ -38,6 +38,10 @@ ul li {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 header#Header {
     /* background: #f1f1f1; */
     box-shadow: inset 0px 0px 2px 0px #ababab;
@@ -700,7 +704,7 @@ header#Header .main-menu nav li:last-child {
     right: -30px;
     width: 30px;
     height: 100%;
-    border-left: 30px solid #d3d3d3;
+    border-left: 30px solid #313691;
     border-top: 27px solid transparent;
     border-bottom: 27px solid transparent;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Little Jewels School</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -42,10 +42,10 @@
                                             <ul class="first-dropped-menu">
                                                 <li><a href="about.php">About LJS</a></li>
                                                 <li><a href="vision-mission.php">Vision & Mission</a></li>
-                                                <li><a href="#">Message</a></li>
-                                                <li><a href="#">History</a></li>
-                                                <li><a href="#">Core Values</a></li>
-                                                <li><a href="#">Campus Facilities</a></li>
+                                                <li><a href="message.php">Message</a></li>
+                                                <li><a href="history.php">History</a></li>
+                                                <li><a href="core-values.php">Core Values</a></li>
+                                                <li><a href="campus-facilities.php">Campus Facilities</a></li>
                                             </ul>
                                         </li>
                                         <li class="first-drop-menu">

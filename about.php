@@ -18,7 +18,10 @@
                     <ul>
                         <li class="active"><a href="about.php">About LJS</a></li>
                         <li><a href="vision-mission.php">Mission and Vision</a></li>
-                        <li><a href="#">History</a></li>
+                        <li><a href="message.php">Message</a></li>
+                        <li><a href="history.php">History</a></li>
+                        <li><a href="core-values.php">Core Values</a></li>
+                        <li><a href="campus-facilities.php">Campus Facilities</a></li>
                     </ul>
                 </div>
             </div>
