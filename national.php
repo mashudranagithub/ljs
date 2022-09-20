@@ -1,6 +1,6 @@
-<?php include('partials/header.php'); ?>
+<?php include('partials/header-campus.php'); ?>
 
-<section id="Page-heading" class="admission-page d-flex align-items-center">
+<!-- <section id="Page-heading" class="admission-page d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -81,7 +81,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include('partials/footer.php'); ?>
 

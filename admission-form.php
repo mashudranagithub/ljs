@@ -1,16 +1,16 @@
-<?php include('partials/header.php'); ?>
+<?php include('partials/header-admission.php'); ?>
 
 <section id="Page-heading" class="admission-page d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Admission</h2>
+                <!-- <h2>Admission</h2> -->
             </div>
         </div>
     </div>
 </section>
 
-<section id="Page-content">
+<!-- <section id="Page-content">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -68,6 +68,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include('partials/footer.php'); ?>
