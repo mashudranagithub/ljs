@@ -67,7 +67,7 @@
                                             <ul class="first-dropped-menu">
                                                 <li><a href="admission-info.php">Application Information</a></li>
                                                 <li><a href="admission-form.php">Admission form</a></li>
-                                                <!-- <li><a href="rules-regulations.php">Rules & Regulations</a></li> -->
+                                                <li><a href="rules-regulations.php">Rules & Regulations</a></li>
                                             </ul>
                                         </li>
                                         <li class="first-drop-menu">
