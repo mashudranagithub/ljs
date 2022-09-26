@@ -8,7 +8,7 @@
                 <div class="col-md-12">
                     <ul>
                         <li><a href="index.php">Home</a> /</li>
-                        <li><a href="index.php">Admission</a></li>
+                        <li><a href="admission.php">Admission Info</a></li>
                     </ul>
                 </div>
             </div>
@@ -24,29 +24,29 @@
                     <div class="side-menu">
                         <ul>
                             <li class="active">
-                                <a href="admission-info.php"><i class="fa fa-graduation-cap"></i> Admission Information</a>
+                                <a href="admission.php"><img src="assets/img/icons/png_icons/graduation.png" alt="Admission icon"> Admission Information</a>
                             </li>
                             <li>
-                                <a href="admission-form.php"><i class="fa fa-file"></i> Admission Form</a>
+                                <a href="admission-form.php"><img src="assets/img/icons/png_icons/registration-form.png" alt="Admission icon"> Admission Form</a>
                             </li>
                             <li>
-                                <a href="rules-regulations.php"><i class="fa fa-cogs"></i> Rules & Regulations</a>
+                                <a href="rules-regulations.php"><img src="assets/img/icons/png_icons/book.png" alt="Admission icon"> Rules & Regulations</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="sidebar-box std-day-ljs text-center">
+                    <!-- <div class="sidebar-box std-day-ljs text-center">
                         <div class="video-thumb">
                             <a href="https://www.youtube.com/watch?v=MlNNGeusB7M" target="_blank"><img src="assets/img/testimonial/parents/parent-2.jpg" alt="Student video thumbnail"></a>
                             <i class="fa fa-play"></i>
                         </div>
                         <p>A day in the life of a student</p>
                         <p><a href="https://www.youtube.com/watch?v=MlNNGeusB7M" target="_blank">WATCH</a></p>
-                    </div>
+                    </div> -->
 
                     <div class="sidebar-box admission-question text-center">
                         <!-- <img src="assets/img/icons/feature/study.png" alt="Study question image"> -->
-                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <img src="assets/img/icons/png_icons/question.png" alt="Admission icon">
                         <p>Admission Sample Question</p>
                         <a href="#"><i class="fa fa-arrow-right"></i></a>
                     </div>
